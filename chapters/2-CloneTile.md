@@ -1,4 +1,4 @@
-# Add additional tiles by cloning existing tiles
+# 2 - Add additional tiles by cloning existing tiles
 
 1. Switch to Edit mode on your dashboard by clicking `Edit` on the top right of the command bar.
 
@@ -38,3 +38,5 @@ EventsAll
 ![](../images/SampleDashboardWithSecondTile.png)
 
 7. Play with the time range picker and notice how the bar chart reflects the selected time range.
+
+# Go back to [1 - Create a sample dashboard](1-CreateSampleDashboard.md) or proceed to [3 - Add tiles by pinning a query to a dashboard](3-PinQuery.md)

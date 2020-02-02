@@ -1,4 +1,4 @@
-# Add a tile to the dashboard by pinning a query
+# 3 - Add a tile to the dashboard by pinning a query
 
 1. Navigate to the `Query` experience and add the same cluster used earlier
 
@@ -27,3 +27,5 @@
 5. The newly added visual now appears on your dashboard. By default, the tile shows a table visual. Edit it to make it an Area chart and save your dashboard. It should look as shown below.
 
 ![](../images/SampleDashboardWithPinnedTile.png)
+
+# Go back to [2 - Add additional tiles by cloning existing tiles](2-CloneTile.md) or proceed to [4 - Explore data on existing tiles in a dashboard](4-Explore.md)

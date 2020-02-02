@@ -1,4 +1,4 @@
-# Create a sample dashboard in ADX
+# 1 - Create a sample dashboard in ADX
 
 1. Navigate to https://preview.dataexplorer.azure.com and login with your Microsoft account.
 
@@ -54,3 +54,5 @@ EventsAll
 Congratulations! You have just created your first ADX dashboard with a single tile. You can find your dashboard later in the dashboard catalogue. Click `Dashboards` in the left navigation menu.
 
 ![](../images/LeftNav_Dashboards.png)
+
+# Go back to [ReadMe](../README.md) or proceed to [2 - Add additional tiles by cloning existing tiles](2-CloneTile.md)

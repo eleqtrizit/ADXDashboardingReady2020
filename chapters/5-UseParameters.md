@@ -1,4 +1,4 @@
-# Create and use a parameter in query and dashboard
+# 5 - Create and use a parameter in query and dashboard
 
 1. Click the browser `Back` button to navigate back to your dashboard. Alternatively, you can click `Dashboards` in the left navigation menu and then click on your dashboard.
 
@@ -40,3 +40,5 @@ EventsAll
 11. Change the value of the parameter in the dashboard to see the chart update.
 
 ![](../images/ParameterInDashboard.png)
+
+# Go back to [4 - Explore data on existing tiles in a dashboard](4-Explore.md) or proceed to [Bonus exercises](BonusExercises.md)
