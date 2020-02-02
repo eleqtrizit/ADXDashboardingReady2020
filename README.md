@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+# Task: Visualize data in Azure Data Explorer Dashboards
 
-You can use the [editor on GitHub](https://github.com/mitulmk/ADXDashboardingReady2020/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Azure Data Explorer’s native dashboarding capability enables you to quickly and easily visualize your Kusto data without leaving the platform. The goal of this task is to familiarize yourself with this capability by creating a dashboard using the data from a sample cluster.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This task will teach you how to:
 
-### Markdown
+1. [Create a sample dashboard](chapters\1-CreateSimpleDashboard.md)
+2. [Add additional tiles by cloning existing tiles](chapters\2-CloneTile.md)
+3. [Add tiles by pinning a query to a dashboard](chapters\3-PinQuery.md)
+4. [Explore data on existing tiles in a dashboard](chapters\4-Explore.md)
+5. [Create and use a parameter in a query and the dashboard](chapters\5-UseParameters.md)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Finally, we list some [bonus exercises](chapters\BonusExercises.md) for you to try out!
 
-```markdown
-Syntax highlighted code block
+NOTE: This is a “preview” capability and new features are added regularly. Please contact us on the Teams channel if you encounter any bugs or have questions/feedback.
 
-# Header 1
-## Header 2
-### Header 3
+## Prerequisites
 
-- Bulleted
-- List
+### KQL
 
-1. Numbered
-2. List
+This task assumes that you have some familiarity with KQL (Kusto Query Language). If not, you can find a quick tutorial [here](https://docs.microsoft.com/en-us/azure/kusto/query/tutorial?pivots=azuredataexplorer).
 
-**Bold** and _Italic_ and `Code` text
+### Data Set
 
-[Link](url) and ![Image](src)
-```
+The data set we’ll be working on is the live GitHub event data stream. It contains different operations done on GitHub, such as pushing code, creating an issue, and so on.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- Data source name: Github
+- Cluster URI: https://demo11.westus.kusto.windows.net/
+- Database: GitHub
 
-### Jekyll Themes
+Some statistics about this data set:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mitulmk/ADXDashboardingReady2020/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Size: ~6 TB
+- Throughput: ~1000 / sec
+- Total number of Events: ~1.8 Billion (and counting)
 
-### Support or Contact
+## Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you run into trouble or have bugs/ feature requests, please reach out to us here: [ADXDbdSup](mailto:ADXDbdSup@microsoft.com) and we’ll help you sort it out.
