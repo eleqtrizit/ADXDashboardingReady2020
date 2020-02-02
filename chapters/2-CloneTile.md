@@ -1,3 +1,5 @@
+# Add additional tiles by cloning existing tiles
+
 1. Switch to Edit mode on your dashboard by clicking `Edit` on the top right of the command bar.
 
 ![](..\images\CommandBar_Edit.png)

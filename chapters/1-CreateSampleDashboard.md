@@ -1,3 +1,5 @@
+# Create a sample dashboard in ADX
+
 1. Navigate to https://preview.dataexplorer.azure.com and login with your Microsoft account.
 
 2. Click `Dashboards` in the left navigation menu.
