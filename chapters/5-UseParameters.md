@@ -22,7 +22,7 @@ EventsAll
 | project RepoName
 ```
 
-![](..\images\Parameter_Query.png)
+![](../images/Parameter_Query.png)
 
 8. Click `Run query` and select `Microsoft/vscode` as the `Default value`.
 
@@ -39,4 +39,4 @@ EventsAll
 
 11. Change the value of the parameter in the dashboard to see the chart update.
 
-![](..\images\ParameterInDashboard.png)
+![](../images/ParameterInDashboard.png)

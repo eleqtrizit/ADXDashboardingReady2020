@@ -5,7 +5,7 @@
 - `Cluster URI`: `https://demo11.westus.kusto.windows.net/`
 - `Database`: `GitHub`
 
-![](..\images\LeftNav_Query_AddCluster.png)
+![](../images/LeftNav_Query_AddCluster.png)
 
 2. Write a query to visualize the popularity trend of vscode and typescript over last three years
 
@@ -18,12 +18,12 @@
 
 3. To add the query to our existing dashboard, click the `Pin to dashboard` option in the `Share` menu.
 
-![](..\images\Share_PinToDashboard.png)
+![](../images/Share_PinToDashboard.png)
 
 4. Enter the details, as shown below and click `Pin`.
 
-![](..\images\PinToDashboard.png)
+![](../images/PinToDashboard.png)
 
 5. The newly added visual now appears on your dashboard. By default, the tile shows a table visual. Edit it to make it an Area chart and save your dashboard. It should look as shown below.
 
-![](..\images\SampleDashboardWithPinnedTile.png)
+![](../images/SampleDashboardWithPinnedTile.png)

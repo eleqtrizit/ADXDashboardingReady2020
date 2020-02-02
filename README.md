@@ -4,13 +4,13 @@ Azure Data Explorer’s native dashboarding capability enables you to quickly an
 
 This task will teach you how to:
 
-1. [Create a sample dashboard](chapters\1-CreateSimpleDashboard.md)
-2. [Add additional tiles by cloning existing tiles](chapters\2-CloneTile.md)
-3. [Add tiles by pinning a query to a dashboard](chapters\3-PinQuery.md)
-4. [Explore data on existing tiles in a dashboard](chapters\4-Explore.md)
-5. [Create and use a parameter in a query and the dashboard](chapters\5-UseParameters.md)
+1. [Create a sample dashboard](chapters/1-CreateSimpleDashboard.md)
+2. [Add additional tiles by cloning existing tiles](chapters/2-CloneTile.md)
+3. [Add tiles by pinning a query to a dashboard](chapters/3-PinQuery.md)
+4. [Explore data on existing tiles in a dashboard](chapters/4-Explore.md)
+5. [Create and use a parameter in a query and the dashboard](chapters/5-UseParameters.md)
 
-Finally, we list some [bonus exercises](chapters\BonusExercises.md) for you to try out!
+Finally, we list some [bonus exercises](chapters/BonusExercises.md) for you to try out!
 
 NOTE: This is a “preview” capability and new features are added regularly. Please contact us on the Teams channel if you encounter any bugs or have questions/feedback.
 

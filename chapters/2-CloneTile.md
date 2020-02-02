@@ -2,11 +2,11 @@
 
 1. Switch to Edit mode on your dashboard by clicking `Edit` on the top right of the command bar.
 
-![](..\images\CommandBar_Edit.png)
+![](../images/CommandBar_Edit.png)
 
 2. Click `Clone tile` on the `Top 5 Repos` tile to duplicate it.
 
-![](..\images\TileActions_Clone.png)
+![](../images/TileActions_Clone.png)
 
 3. Click `Edit tile` to update the query.
 
@@ -20,7 +20,7 @@ EventsAll
 
 4. Update the query to work with the `Time range` picker by using the keywords `startTime` and `endTime` in your query.
 
-![](..\images\TimeRangePicker.png)
+![](../images/TimeRangePicker.png)
 
 ```
 // Lets' see what other Microsoft technologies have the most traction in GitHub
@@ -35,6 +35,6 @@ EventsAll
 
 6. Resize and place this tile next to your previous tile and save your dashboard.
 
-![](..\images\SampleDashboardWithSecondTile.png)
+![](../images/SampleDashboardWithSecondTile.png)
 
 7. Play with the time range picker and notice how the bar chart reflects the selected time range.
