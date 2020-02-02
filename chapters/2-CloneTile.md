@@ -18,7 +18,9 @@ EventsAll
 | top 5 by TotalEvents
 ```
 
-4. Update the query to work with the `Time range` picker.
+4. Update the query to work with the `Time range` picker by using the keywords `startTime` and `endTime` in your query.
+
+![](..\images\TimeRangePicker.png)
 
 ```
 // Lets' see what other Microsoft technologies have the most traction in GitHub
