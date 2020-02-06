@@ -13,7 +13,7 @@
    EventsAll
    | where Repo.name =~ "Microsoft/vscode" or Repo.name =~ "Microsoft/TypeScript"
    | make-series count() default=0 on CreatedAt in range(datetime(2016-01-01), datetime(2019-06-11), 30d) by RepoName = tolower(tostring(Repo.name))
-   | project CreatedAt, RepoName, count\_
+   | project CreatedAt, RepoName, count_
 ```
 
 3. To add the query to our existing dashboard, click the `Pin to dashboard` option in the `Share` menu.
