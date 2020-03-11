@@ -13,6 +13,7 @@
 6. Select `Github` as the `Data source`, if not already selected.
 
 7. Enter the following query:
+
 ```
 // Let's get the top 5 Microsoft repos
 EventsAll
@@ -21,6 +22,7 @@ EventsAll
 | top 5 by TotalEvents
 | project RepoName
 ```
+
 ![](../images/Parameter_Query.png)
 
 8. Click `Run query` to fetch the results and populate the dropdown. Select `Microsoft/vscode` as the `Default value`.
@@ -28,6 +30,7 @@ EventsAll
 9. Click `Done`. You should now see this new parameter next to the `Time range` picker.
 
 10. Clone the `Popularity of vscode and TypeScript` tile and edit its query to use the newly created parameter and save it as a `Time Chart`.
+
 ```
 // Let's see the popularity trend for a specific repo
 EventsAll
@@ -37,6 +40,7 @@ EventsAll
 ```
 
 11. Change the value of the parameter in the dashboard to see the chart update.
+
 ![](../images/ParameterInDashboard.png)
 
 # Go back to [4 - Explore data on existing tiles in a dashboard](4-Explore.md) or proceed to [Bonus exercises](BonusExercises.md)
