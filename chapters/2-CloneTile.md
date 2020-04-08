@@ -26,7 +26,7 @@ EventsAll
 // Let's see what other Microsoft technologies have the most traction in GitHub
 EventsAll
 | where Repo.name has 'Microsoft'
-| where CreatedAt between (startTime..endTime)
+| where CreatedAt between (_startTime.._endTime)
 | summarize TotalEvents = count() by RepoName=tostring(Repo.name)
 | top 5 by TotalEvents
 ```
